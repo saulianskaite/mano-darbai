@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Courier New";
+  color: black;
+}
+
+.eile {
+	width: 100%;
+	padding: 10px;
+}
+
+.sekcija {
+  border: 2px solid black;
+  background-color: #ABEBC6;
+  height: 350px;
+  overflow: auto;
+  width: auto;
+  margin: 5px;
+}
+
+.pavadinimas {
+  border: 2px solid black;
+  background-color: #D2B4DE;
+  width: 110px;
+  height: auto;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  left: 80%;
+  bottom: 1%;
+  font-family: "Courier New";
+  margin-bottom: 5px; 
+}
+
+.tekstas {
+ font-family: "Courier New"; 
+ font-size: 16px;
+ height: auto;
+ margin: 10px;
+ font-weight: bold;
+}
+
+
+/********** For computer **********/
+@media (min-width: 992px) {
+  .sekcija {
+	width: 32%;
+	float: left;}
+}
+
+/********** For tablet **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .sekcija {
+  	width: 48%;
+  	float: left;
+  }
+  #trecia {
+  	width: 97%;
+  	height: 200px;
+  }
+}
+  
+/********** For mobile phone **********/
+@media (max-width: 767px){
+  .sekcija {
+  	width: 100%;}
+}
+  
